@@ -15,7 +15,7 @@ jobs:
 
     - name: Build Jupyter Book
       run: |
-        pip install -U jupyter-book
+        pip install -U "jupyter-book<2"
         jupyter-book clean .
         jupyter-book build .
 
