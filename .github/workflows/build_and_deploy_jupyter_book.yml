@@ -18,7 +18,7 @@ jobs:
 
     - name: Build Jupyter Book
       run: |
-        pip install -U "jupyter-book<2"
+        pip install -U "jupyter-book<2.0.0" "pydata-sphinx-theme==0.15.3" "sphinx-book-theme<1.1.0"
         jupyter-book clean .
         jupyter-book build .
 
