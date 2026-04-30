@@ -4,5 +4,5 @@
 format: jb-book
 root: index
 chapters:
-- file: demos/reconstruction
-- file: demos/test_eps12_zero
+- file: demos/Fig1-6
+- file: demos/Fig7
